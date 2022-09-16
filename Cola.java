@@ -36,6 +36,9 @@ public class Cola {
     }
 
     void m_mostrarDatos() {
-        
+        int contador;
+        for (contador = 0; contador < a_datos.length; contador++) {
+            System.out.print(a_datos[contador]);
+        }
     }
 }
