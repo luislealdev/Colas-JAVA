@@ -37,8 +37,10 @@ public class Cola {
 
     void m_mostrarDatos() {
         int contador;
+        System.out.print("\n[");
         for (contador = 0; contador < a_datos.length; contador++) {
-            System.out.print(a_datos[contador]);
+            System.out.print("|"+a_datos[contador]+"|");
         }
+        System.out.print("]");
     }
 }
