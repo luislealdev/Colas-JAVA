@@ -1,11 +1,9 @@
 public class ColaDinamica {
     Nodo Inicio, Fin;
-    boolean a_error;
 
     ColaDinamica() {
         Inicio = null;
         Fin = null;
-        a_error = true;
     }
 
     void in(int dato) {
